@@ -10,6 +10,14 @@
 
 }
 
+:root{
+   --color1:#fff ;
+   --color2:#18CA18 ;
+   --color3:#FFA500 ;
+   --color4:rgba(0, 0, 0, 0.733);
+
+}
+
       /* header section CSS    */
 
 header{
@@ -29,3 +37,53 @@ header{
    width: 93%;
    margin: auto;
 }
+
+.top{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo h2{
+   color: var(--color2);
+   font-size: 35px;
+}
+
+.menu{
+   display: flex;
+   align-items: center;
+   
+}
+
+.menu ul{
+   display: flex;
+   align-items: center;
+}
+
+.menu ul li{
+   padding: 10px 18px;
+}
+
+.menu ul li a{
+   color: var(--color1);
+   font-size: 18px;
+   text-transform: uppercase;
+}
+
+.menu ul li a::after{
+   content: "";
+   width:0%;
+   height: 2px;
+   background-color: var(--color2);
+   display: block;
+   transition: 0.5s;
+   margin: auto;
+
+}
+
+.menu ul li a:hover::after{
+   width:100%;
+}
+
+
+
