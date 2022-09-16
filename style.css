@@ -38,6 +38,7 @@ header{
    margin: auto;
 }
 
+   /* Menu Part CSS  START */
 .top{
    display: flex;
    align-items: center;
@@ -84,6 +85,44 @@ header{
 .menu ul li a:hover::after{
    width:100%;
 }
+
+.search{
+   width:300px;
+   position: relative;
+   margin-left: 20px;
+
+}
+
+#search-box{
+   padding: 7px;
+   border: 1px solid var(--color1);
+   background-color: transparent;
+   width: 100%;
+   color: var(--color1);
+   font-size: 18px;
+   outline: none;
+   border-top-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+  
+}
+
+#search-btn{
+   position: absolute;
+   top: 0;
+   right:0;
+   background-color: var(--color2);
+   padding: 8px 15px;
+   font-size: 18px;
+   border: none;
+   border-top-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   color: #fff;
+   cursor: pointer;
+}
+
+/* Menu Part CSS  END */
+
+
 
 
 
