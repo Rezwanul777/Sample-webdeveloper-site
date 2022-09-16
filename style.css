@@ -34,7 +34,7 @@ header{
 }
 
 .container{
-   width: 93%;
+   width: 90%;
    margin: auto;
 }
 
@@ -121,6 +121,104 @@ header{
 }
 
 /* Menu Part CSS  END */
+
+   /* Header bottom part CSS start*/
+
+   .bottom{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 130px;
+   }
+
+   .bottom-left{
+
+   }
+
+   .bottom-left h1{
+      font-size: 45px;
+      color: var(--color1);
+      width: 600px;
+      margin-bottom: 20px;
+   }
+
+   .bottom-left p{
+      font-size: 18px;
+      width: 650px;
+      color: #fff;
+      margin-bottom: 25px;
+   }
+
+   .bottom-left h1 span{
+      color: var(--color2);
+   }
+
+   .bottom-left-btn{
+      padding: 10px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      color: var(--color1);
+      background-color: var(--color2);
+      margin-top: 10px;
+      transition: 0.5s;
+        
+   }
+
+   .bottom-left-btn:hover{
+      background-color: var(--color3);
+      cursor: pointer;
+   }
+
+   .bottom-right{
+      width: 300px;
+      background-color: var(--color1);
+      padding: 20px;
+      border-radius: 5px;
+      
+   }
+
+   #login-form h2{
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 25px;
+      color: var(--color2);
+      
+   }
+
+   #login-form input{
+      display:block;
+      padding: 7px;
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      outline: none;
+      margin-bottom: 20px;
+   }
+
+   #login-form .login-btn{
+      width: 100%;
+      padding: 7px;
+      font-size: 18px;
+      background-color: var(--color2);
+      color: var(--color1);
+      border-radius: 5px;
+      border: none;
+      margin-bottom: 20px;
+      transition: 0.5s;
+   
+   }
+
+   #login-form .login-btn:hover{
+      background-color: var(--color3);
+      cursor: pointer;
+   }
+
+      /* Header bottom part CSS End*/
+
+
+
+
+
 
 
 
