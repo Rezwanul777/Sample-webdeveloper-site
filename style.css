@@ -311,6 +311,71 @@ header{
 
       /* Clients feedback css end */
 
+         /* Team CSS START */
+
+         .our-team-members{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+         }
+
+         .team-member{
+            flex-basis: 30%;
+           
+         }
+
+         .member-img{
+            height: 400px;
+            object-fit: cover;
+            position: relative;
+            overflow: hidden;
+         }
+
+         .member-img img{
+            max-width: 100%;
+            border-radius: 5px;
+         }
+
+         .member-social{
+            position: absolute;
+            bottom: 30px;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+           
+         }
+
+         .member-social i{
+            font-size: 25px;
+            color: var(--color1);
+            width: 40px;
+            height: 40px;    
+           
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            background-color: #14b614;
+            transition:0.5s;
+            cursor: pointer;
+            
+         }
+
+         .member-social i:hover{
+            transform: translateY(-12px);
+         }
+
+         .member-info{
+            padding: 16px;
+            background-color: #14b614;
+            text-align: center;
+            color: var(--color1);
+            font-size: 18px;
+         }
+
+          /* Team CSS END */
 
 
 
