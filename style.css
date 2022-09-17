@@ -7,6 +7,7 @@
    font-family: 'Poppins', sans-serif;
    text-decoration: none;
    list-style: none;
+   text-transform: capitalize;
 
 }
 
@@ -26,7 +27,7 @@ header{
    background-repeat: no-repeat;
    background-size: cover;
    padding: 25px 0;
-   text-transform: capitalize;
+   
    background-color: rgba(0,0,0,.6);
    background-blend-mode:overlay;
    height: 100vh;
@@ -281,6 +282,34 @@ header{
           /* Digital Modern CSS END */
 
          /* Clients feedback css start */
+
+      .our-clients{
+         background-image: url('./images/slider2.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         background-color: rgba(0,0,0,.6);
+         background-blend-mode:overlay;
+         background-attachment: fixed;
+        
+      }
+      .clients-wrapper{
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+      }
+
+      .clients-feedback{
+         background-color: var(--color2);
+         opacity: 0.6;
+         flex-basis: 20%;
+         padding: 45px 0;
+         text-align: center;
+         color: var(--color1);
+         font-weight: 700;
+      }
+
+      /* Clients feedback css end */
 
 
 
