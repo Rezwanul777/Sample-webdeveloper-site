@@ -518,6 +518,7 @@ section {
 
 .plan-bottom input:hover{
    background-color: var(--color3);
+   cursor: pointer;
 }
 
 .our-price-plans .plan-box:hover {
@@ -527,8 +528,51 @@ section {
    transform: scale(1.1);
    border:1px solid rgba(17, 25, 63, 0.6);
    box-shadow: 0 8px 12px 0  rgba(0, 0, 0, 0.7);
+   
 
 }
 
 /* Pricing Plan CSS End */
+
+   /*Subscriber CSS sTART */
+
+#subscriber{
+   background-color: var(--color2);
+}
+.sub-box{
+   width: 500px;
+   margin: auto;
+   position: relative;
+  
+   
+}
+   .sub-box input{
+     
+      border: none;
+      outline: none;
+     
+   }
+
+   #sub-email{
+      width: 100%;
+      border-radius:20px;
+      padding:10px;
+      font-size: 18px;
+      
+   }
+
+   #sub-btn{
+      width: 150px;
+      padding:10px;
+      border-radius:20px;
+      position: absolute;
+      background-color: var(--color3);
+      color: #fff;
+      top: 0;
+      right: 0;
+      border-radius:20px;
+      font-size: 18px;
+   }
+
+    /*Subscriber CSS End */
 
