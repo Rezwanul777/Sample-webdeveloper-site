@@ -576,3 +576,29 @@ section {
 
     /*Subscriber CSS End */
 
+      /* Work place CSS Start */
+      .work-place{
+         display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:20px;
+        
+      }
+      .work-place-img{
+         overflow: hidden;
+         object-fit: cover;
+        
+      }
+
+      .work-place-img img{
+         max-width: 100%;
+         border-radius: 5px;
+         transition: 0.5s;
+         
+      }
+
+      .work-place-img img:hover{
+         transform: scale(1.2);
+      }
+
+      /* Work place CSS end */
+
